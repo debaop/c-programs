@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+    void main ()
+       {
+       int a , s = 0;
+    for ( a = 0 ; a<=50 ; a+=2 )
+    {
+    s = s+ a;
+    }
+    printf("%d\n",s);
+    getch();
+    }
